@@ -15,11 +15,11 @@ describe("When the user wants to list the registered books", () => {
     });
 
     it("Then it will return a list with at least one book and thid book should have name, author and ID", ()=>{  
-        book = answer.data
-        expect(book.length).to.be.greaterThan(0);
-        book = answer.data[0];
-        expect(book).to.have.property("id");
-        expect(book).to.have.property("name");
-        expect(book).to.have.property("author");
+        book_gotten = answer.data
+        expect(book_gotten.length).to.be.greaterThan(0);
+        book_gotten = answer.data[0];
+        expect(book_gotten).to.have.property("id");
+        expect(book_gotten).to.have.property("name");
+        expect(book_gotten).to.have.property("author");
     })
 });
