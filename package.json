@@ -1,0 +1,28 @@
+{
+  "name": "front-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/e2e-api/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike31860/Books-API-Test-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike31860/Books-API-Test-/issues"
+  },
+  "homepage": "https://github.com/Mike31860/Books-API-Test-#readme",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4"
+  }
+}
